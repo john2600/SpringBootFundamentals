@@ -13,9 +13,12 @@ import java.util.logging.Logger;
 @SpringBootApplication
 public class FundamentalsApplication {
 	public static void main(String[] args) {
+
+		//Spring-boot-
 		SpringApplication.run(FundamentalsApplication.class, args);
 	}
 
+	/*
 	@Bean
 	public CommandLineRunner demo(ApplicationRepository applicationRepository){
 		return (args -> {
@@ -28,6 +31,6 @@ public class FundamentalsApplication {
 			}
 		});
 
+	*/
 
-	}
 }

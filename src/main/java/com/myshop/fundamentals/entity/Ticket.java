@@ -9,6 +9,8 @@ public class Ticket {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    private String description;
+    private String severity;
     private String title;
 
     @ManyToOne
@@ -19,8 +21,8 @@ public class Ticket {
     @JoinColumn(name = "release_id")
     private Release release;
 
-    private String description;
-    private String severity;
+
+
 
     public Ticket(){}
 
