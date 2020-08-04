@@ -4,4 +4,6 @@ import com.myshop.fundamentals.entity.Ticket;
 
 public interface TicketService {
     Iterable<Ticket> ticketIterations();
+
+    Ticket findTicketById(Long id);
 }
