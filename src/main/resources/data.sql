@@ -1,4 +1,4 @@
-INSERT INTO application (APPLICATION_ID, DESCRIPTION, APPLICATION_NAME, OWNER) VALUES (1, 'Trackzilla','A bug tracking application', 'Kesha Williams');
+INSERT INTO application (APPLICATION_ID, DESCRIPTION, APPLICATION_NAME, OWNER) VALUES (1, 'Trackzilla','A bug tracking application', 'Tom Joe');
 INSERT INTO application (APPLICATION_ID, DESCRIPTION, APPLICATION_NAME, OWNER) VALUES (2, 'Expenses','An application used to submit expenses', 'Jane Doe');
 INSERT INTO application (APPLICATION_ID, DESCRIPTION, APPLICATION_NAME, OWNER) VALUES (3, 'Bookings','An application used to book tickets', 'John Doe');
 INSERT INTO application (APPLICATION_ID, DESCRIPTION, APPLICATION_NAME, OWNER) VALUES (4, 'Invoice Search','An application used to search invoices ', 'Mary Richards');
